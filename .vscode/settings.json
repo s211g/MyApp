@@ -1,0 +1,30 @@
+{
+
+//     "cmake.environment": {
+//         "PATH": "c:\\Users\\s2115\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin;${env:PATH}"
+//     },
+//     //"cmake.generator": "Ninja",
+//     "cmake.cmakePath": "c:\\Users\\s2115\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\cmake.exe",
+//     "cmake.sourceDirectory": "${workspaceFolder}",
+//     "cmake.parallelJobs": 5,
+//     "cmake.configureArgs": [
+// //            "-DCMAKE_BUILD_TYPE=Debug",
+// //            "-DANDROID_ABI=arm64-v8a",
+// //            "-DANDROID_NATIVE_API_LEVEL=29",
+// //            "-DCMAKE_TOOLCHAIN_FILE=c:\\Users\\s2115\\AppData\\Local\\Android\\Sdk\\ndk\\27.0.11902837\\build\\cmake\\android.toolchain.cmake"
+//         ],
+
+    "lldb.verboseLogging": true,
+    "lldb.library": "D:\\temp\\buildMSVC17Release\\Release\\bin\\liblldb.dll",
+    //"lldb.library": "D:\\temp\\buildMSVC17Debug\\debug\\bin\\liblldb.dll",
+    //"lldb.library": "D:\\temp\\buildMSVC18Release\\Release\\bin\\liblldb.dll",
+
+    //"lldb.library": "C:\\Users\\s2115\\.vscode\\extensions\\vadimcn.vscode-lldb-1.10.0\\lldb17\\liblldb.dll",
+    
+    "debug.console.wordWrap": false,
+    
+    "lldb.adapterEnv": {
+      //"LLDB_FPORT_CMD": "adb"
+      //"LLDB_FPORT_CMD": "E:\\proj\\android\\debugger\\forwardPort.cmd"      
+    }   
+}
